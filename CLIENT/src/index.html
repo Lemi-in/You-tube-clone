@@ -1,178 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="YouTube Clone - Watch Random Videos">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="YouTube Clone - Watch Random Videos" />
     <title>YouTube Clone</title>
-</head>
-<body>
-    <header>
-        <div>
-            <h1>YouTube Clone</h1>
-            <div>
-                <input type="text" placeholder="Search..." aria-label="Search">
-                <button type="button">Search</button>
-            </div>
-            <div>
-                <span>🔔</span>
-                <span>User</span>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#trending">Trending</a></li>
-                <li><a href="#subscriptions">Subscriptions</a></li>
-                <li><a href="#library">Library</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <!-- Sidebar -->
-        <aside>
-            <h2>Sidebar</h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#trending">Trending</a></li>
-                <li><a href="#subscriptions">Subscriptions</a></li>
-                <li><a href="#library">Library</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#watch-later">Watch Later</a></li>
-            </ul>
-        </aside>
-
-        <!-- Video Content -->
-        <section id="video-list">
-            <h2>Recommended Videos</h2>
-            <div>
-                <!-- Video Thumbnails -->
-                <table>
-                    <tr>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                    <img src="./assets/image1.png" alt="Video Thumbnail 1" title="Random Video 1">
-                                </a>
-                                <h3>Random Video 1</h3>
-                                <span>Views: <strong>1.2M</strong></span> | <span>Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=3JZ_D3ELwOQ" target="_blank">
-                                    <img src="./assets/image2.png" alt="Video Thumbnail 2" title="Random Video 2">
-                                </a>
-                                <h3>Random Video 2</h3>
-                                <span>Views: <strong>850K</strong></span> | <span>Uploaded: <time datetime="2023-11-15">Nov 15, 2017</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g" target="_blank">
-                                    <img src="./assets/image3.png" alt="Video Thumbnail 3" title="Random Video 3">
-                                </a>
-                                <h3>Random Video 3</h3>
-                                <span>Views: <strong>2.5M</strong></span> | <span>Uploaded: <time datetime="2023-10-30">Oct 30, 2023</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">
-                                    <img src="./assets/image4.png" alt="Video Thumbnail 4" title="Random Video 4">
-                                </a>
-                                <h3>Random Video 4</h3>
-                                <span>Views: <strong>3.1M</strong></span> | <span>Uploaded: <time datetime="2023-09-20">Sep 20, 2021</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0" target="_blank">
-                                    <img src="./assets/image5.png" alt="Video Thumbnail 5" title="Random Video 5">
-                                </a>
-                                <h3>Random Video 5</h3>
-                                <span>Views: <strong>500K</strong></span> | <span>Uploaded: <time datetime="2023-08-10">Aug 10, 2015</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=QH2-TGUlwu4" target="_blank">
-                                    <img src="./assets/image6.png" alt="Video Thumbnail 6" title="Random Video 6">
-                                </a>
-                                <h3>Random Video 6</h3>
-                                <span>Views: <strong>4.7M</strong></span> | <span>Uploaded: <time datetime="2023-07-15">Jul 15, 2007</time></span>
-                            </article>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=abcd1234" target="_blank">
-                                    <img src="./assets/image7.png" alt="Video Thumbnail 7" title="Random Video 7">
-                                </a>
-                                <h3>Random Video 7</h3>
-                                <span>Views: <strong>600K</strong></span> | <span>Uploaded: <time datetime="2023-06-20">Jun 20, 2020</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=efgh5678" target="_blank">
-                                    <img src="./assets/image8.png" alt="Video Thumbnail 8" title="Random Video 8">
-                                </a>
-                                <h3>Random Video 8</h3>
-                                <span>Views: <strong>720K</strong></span> | <span>Uploaded: <time datetime="2023-05-10">May 10, 2013</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=ijkl9012" target="_blank">
-                                    <img src="./assets/image9.png" alt="Video Thumbnail 9" title="Random Video 9">
-                                </a>
-                                <h3>Random Video 9</h3>
-                                <span>Views: <strong>1.1M</strong></span> | <span>Uploaded: <time datetime="2023-04-05">Apr 5, 2011</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=mnop3456" target="_blank">
-                                    <img src="./assets/image10.png" alt="Video Thumbnail 10" title="Random Video 10">
-                                </a>
-                                <h3>Random Video 10</h3>
-                                <span>Views: <strong>980K</strong></span> | <span>Uploaded: <time datetime="2023-03-12">Mar 12, 2018</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=qrst7890" target="_blank">
-                                    <img src="./assets/image1.png" alt="Video Thumbnail 11" title="Random Video 11">
-                                </a>
-                                <h3>Random Video 11</h3>
-                                <span>Views: <strong>560K</strong></span> | <span>Uploaded: <time datetime="2023-02-25">Feb 25, 2024</time></span>
-                            </article>
-                        </td>
-                        <td>
-                            <article>
-                                <a href="https://www.youtube.com/watch?v=uvwx5678" target="_blank">
-                                    <img src="./assets/image1.png" alt="Video Thumbnail 12" title="Random Video 12">
-                                </a>
-                                <h3>Random Video 12</h3>
-                                <span>Views: <strong>1.3M</strong></span> | <span>Uploaded: <time datetime="2023-01-15">Jan 15, 2020</time></span>
-                            </article>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Created by <strong>Lemesa Elias</strong> | &copy; <time datetime="2024">2024</time></p>
-        <ul>
+  </head>
+  <body>
+    <table border="0" width="100%">
+      <tr>
+        <td colspan="4">
+          <h1>YouTube Clone</h1>
+        </td>
+        <td>
+          <input type="search" placeholder="Search..." aria-label="Search" />
+          <button type="button">Search</button>
+        </td>
+        <td>
+          <span>🔔</span>
+          <span>User</span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6">
+          <table width="100%">
+            <tr>
+              <td><a href="#home">Home</a></td>
+              <td><a href="#trending">Trending</a></td>
+              <td><a href="#subscriptions">Subscriptions</a></td>
+              <td><a href="#library">Library</a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2" valign="top">
+          <h2>Sidebar</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li>
+              <a href="#subscriptions">Subscriptions</a>
+              <ul>
+                <li>
+                  <img
+                    src="./assets/images/image1.png"
+                    width="30"
+                    height="30"
+                    alt=""
+                  />
+                  <a href="#channel1">Channel 1</a>
+                </li>
+                <li>
+                  <img
+                    src="./assets/images/image1.png"
+                    width="30"
+                    height="30"
+                    alt=""
+                  /><a href="#channel2">Channel 2</a>
+                </li>
+                <li>
+                  <img
+                    src="./assets/images/image1.png"
+                    width="30"
+                    height="30"
+                    alt=""
+                  /><a href="#channel3">Channel 3</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#library">Library</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#watch-later">Watch Later</a></li>
+          </ul>
+        </td>
+        <td colspan="5" valign="top">
+          <h2>Recommended Videos</h2>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <table width="100%">
+            <tr>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image1.png"
+                    alt="Video Thumbnail 1"
+                    title="Random Video 1"
+                  />
+                </a>
+                <h3>Random Video 1</h3>
+                <span>Views: <strong>1.2M</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-12-01">Dec 1, 2020</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image2.png"
+                    alt="Video Thumbnail 2"
+                    title="Random Video 2"
+                  />
+                </a>
+                <h3>Random Video 2</h3>
+                <span>Views: <strong>850K</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-11-15">Nov 15, 2017</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image3.png"
+                    alt="Video Thumbnail 3"
+                    title="Random Video 3"
+                  />
+                </a>
+                <h3>Random Video 3</h3>
+                <span>Views: <strong>2.5M</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-10-30">Oct 30, 2023</time></span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image7.png"
+                    alt="Video Thumbnail 7"
+                    title="Random Video 7"
+                  />
+                </a>
+                <h3>Random Video 7</h3>
+                <span>Views: <strong>600K</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-06-20">Jun 20, 2020</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image8.png"
+                    alt="Video Thumbnail 8"
+                    title="Random Video 8"
+                  />
+                </a>
+                <h3>Random Video 8</h3>
+                <span>Views: <strong>720K</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-05-10">May 10, 2013</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image9.png"
+                    alt="Video Thumbnail 9"
+                    title="Random Video 9"
+                  />
+                </a>
+                <h3>Random Video 9</h3>
+                <span>Views: <strong>1.1M</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-04-05">Apr 5, 2011</time></span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image1.png"
+                    alt="Video Thumbnail 1"
+                    title="Random Video 1"
+                  />
+                </a>
+                <h3>Random Video 1</h3>
+                <span>Views: <strong>1.2M</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-12-01">Dec 1, 2020</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image2.png"
+                    alt="Video Thumbnail 2"
+                    title="Random Video 2"
+                  />
+                </a>
+                <h3>Random Video 2</h3>
+                <span>Views: <strong>850K</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-11-15">Nov 15, 2017</time></span
+                >
+              </td>
+              <td>
+                <a href="./templates/video.html">
+                  <img
+                    src="./assets/images/image3.png"
+                    alt="Video Thumbnail 3"
+                    title="Random Video 3"
+                  />
+                </a>
+                <h3>Random Video 3</h3>
+                <span>Views: <strong>2.5M</strong></span> |
+                <span
+                  >Uploaded:
+                  <time datetime="2023-10-30">Oct 30, 2023</time></span
+                >
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6">
+          <p>
+            Created by <strong>Lemesa Elias</strong> | &copy;
+            <time datetime="2024">2024</time>
+          </p>
+          <ul>
             <li><a href="#privacy">Privacy</a></li>
             <li><a href="#terms">Terms</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
-    </footer>
-</body>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
