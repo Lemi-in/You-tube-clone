@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="YouTube Clone - Video Details" />
-    <title>Video Details</title>
+    <meta name="description" content="YouTube Clone - Watch Random Videos" />
+    <title>YouTube Clone</title>
   </head>
   <body>
     <table width="100%">
@@ -18,9 +18,9 @@
         </td>
         <td align="center">
           <span>🔔</span>
-          <span>
-            <img src="./src/assets/images/avatar.png" width="40" alt="" />
-          </span>
+          <span
+            ><img src="./src/assets/images/avatar.png" width="40" alt=""
+          /></span>
         </td>
       </tr>
 
@@ -28,10 +28,10 @@
         <td>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="../index.html">Home</a>
             </li>
             <li>
-              <a href="#">Subscriptions</a>
+              <a href="#">subscriptions</a>
             </li>
           </ul>
           <hr />
@@ -47,8 +47,8 @@
       </tr>
 
       <tr>
-        <td valign="top" rowspan="2">
-          <h3>Explore</h3>
+        <td valign="top">
+          <h3>You</h3>
           <ul>
             <li><a href="#">History</a></li>
             <li><a href="#">Watch Later</a></li>
@@ -57,65 +57,104 @@
           </ul>
           <hr />
         </td>
-        <td colspan="5" rowspan="2" align="center">
-          <h2>Video Title</h2>
-          <video controls width="80%">
-            <source src="./src/assets/videos/sample.mp4" type="video/mp4" />
+        <td rowspan="3">
+          <video controls width="1200">
+            <source src="./assets/videos/video1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p>Views: <strong>1.2M</strong> | Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></p>
-          <p>Description of the video goes here. This is where detailed information about the video will be displayed.</p>
+          <h3>Random Video 1</h3>
+          <span>Views: <strong>1.2M</strong></span> |
+          <span>Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            ultricies, nunc nec vehicula ultricies, nunc nec vehicula
+            ultricies, nunc nec vehicula
+          </p>
         </td>
-      </tr>
-
-      <tr></tr>
-
-      <tr>
-        <td valign="top" rowspan="2">
-          <h3>Recommended</h3>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="./src/assets/images/image1.png" width="80" alt="Thumbnail" />
-                <span>Recommended Video 1</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./src/assets/images/image2.png" width="80" alt="Thumbnail" />
-                <span>Recommended Video 2</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./src/assets/images/image3.png" width="80" alt="Thumbnail" />
-                <span>Recommended Video 3</span>
-              </a>
-            </li>
-          </ul>
-        </td>
-        <td colspan="5" align="center">
-          <h3>Comments</h3>
-          <textarea placeholder="Add a comment..." rows="3" cols="50"></textarea>
-          <br />
-          <button type="button">Comment</button>
-          <ul>
-            <li>
-              <strong>User1:</strong> Great video!
-            </li>
-            <li>
-              <strong>User2:</strong> Thanks for the content.
-            </li>
-            <li>
-              <strong>User3:</strong> Awesome explanation!
-            </li>
-          </ul>
+        <td align="center">
+          <a href="#">
+            <img
+              src="./assets/images/image2.png"
+              alt="Video Thumbnail 1"
+              title="Random Video 1"
+            />
+          </a>
+          <h3>Random Video 1</h3>
+          <span>Views: <strong>1.2M</strong></span> |
+          <span>Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></span>
         </td>
       </tr>
 
       <tr>
-        <td colspan="6" align="center">
-          <p>&copy; 2024 YouTube Clone | Privacy | Terms | Contact</p>
+        <td valign="top" rowspan="3">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Live</a></li>
+          </ul>
+          <hr />
+        </td>
+        <td align="center">
+          <a href="#">
+            <img
+              src="./assets/images/image1.png"
+              alt="Video Thumbnail 1"
+              title="Random Video 1"
+            />
+          </a>
+          <h3>Random Video 1</h3>
+          <span>Views: <strong>1.2M</strong></span> |
+          <span>Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></span>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <a href="#">
+            <img
+              src="./assets/images/image3.png"
+              alt="Video Thumbnail 1"
+              title="Random Video 1"
+            />
+          </a>
+          <h3>Random Video 1</h3>
+          <span>Views: <strong>1.2M</strong></span> |
+          <span>Uploaded: <time datetime="2023-12-01">Dec 1, 2020</time></span>
+        </td>
+      </tr>
+      <tr>
+
+        <td rowspan="2">
+          <h3>comments</h3>
+          <ul>
+            <li>
+              <strong>John Doe</strong>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                ultricies, nunc nec vehicula ultricies, nunc nec vehicula
+                ultricies, nunc nec vehicula
+              </p>
+            </li>
+            <li>
+              <strong>Jane Doe</strong>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                ultricies, nunc nec vehicula ultricies, nunc nec vehicula
+                ultricies, nunc nec vehicula
+              </p>
+            </li>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <ul>
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </td>
       </tr>
     </table>
