@@ -48,6 +48,9 @@ To get a local copy up and running, follow these simple steps:
 
 Open the `index.html` file in your web browser to view the YouTube Clone UI.
 
+
+
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
